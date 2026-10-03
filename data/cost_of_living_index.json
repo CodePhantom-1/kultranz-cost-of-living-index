@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "description": "US metro cost-of-living index (BEA Regional Price Parities, all items) with median rent, median home value, median household income and population \u2014 one row per metro. Compiled by kultranz.com.",
+    "coverage": "50 US metros",
+    "vintage": "2025-26",
+    "sources": [
+      "BEA Regional Price Parities, all items (RPP)",
+      "US Census Bureau, American Community Survey (ACS)",
+      "kultranz.com methodology: https://kultranz.com/pages/methodology/"
+    ],
+    "null_policy": "An empty cell (CSV) or null (JSON) means no value existed for that metro in the source database. Nothing is imputed, interpolated, or rounded.",
+    "aggregation_note": "In the source database these metro-level fields are repeated per job-city row and are constant per metro; where the value was present on some rows only, the single distinct non-null value is used.",
+    "license": "CC BY 4.0 \u2014 attribution: kultranz.com"
+  },
+  "metros": [
+    {
+      "city": "Mesa",
+      "state": "AZ",
+      "rpp_all_items": 103.316,
+      "median_rent": null,
+      "median_home_value": null,
+      "median_income": null,
+      "population": null
+    },
+    {
+      "city": "Phoenix",
+      "state": "AZ",
+      "rpp_all_items": 103.316,
+      "median_rent": 1458.0,
+      "median_home_value": 381900.0,
+      "median_income": 77041.0,
+      "population": 1624832
+    },
+    {
+      "city": "Tucson",
+      "state": "AZ",
+      "rpp_all_items": 96.896,
+      "median_rent": 1079.0,
+      "median_home_value": 242200.0,
+      "median_income": 54546.0,
+      "population": 543348
+    },
+    {
+      "city": "Fresno",
+      "state": "CA",
+      "rpp_all_items": 102.158,
+      "median_rent": 1324.0,
+      "median_home_value": 348500.0,
+      "median_income": 66804.0,
+      "population": 543615
+    },
+    {
+      "city": "Long Beach",
+      "state": "CA",
+      "rpp_all_items": 113.566,
+      "median_rent": null,
+      "median_home_value": null,
+      "median_income": null,
+      "population": null
+    },
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "rpp_all_items": 113.566,
+      "median_rent": 1879.0,
+      "median_home_value": 879500.0,
+      "median_income": 80366.0,
+      "population": 3857897
+    },
+    {
+      "city": "Oakland",
+      "state": "CA",
+      "rpp_all_items": 115.613,
+      "median_rent": null,
+      "median_home_value": null,
+      "median_income": null,
+      "population": null
+    },
+    {
+      "city": "Sacramento",
+      "state": "CA",
+      "rpp_all_items": 106.67,
+      "median_rent": 1694.0,
+      "median_home_value": 484600.0,
+      "median_income": 83753.0,
+      "population": 524802
+    },
+    {
+      "city": "San Diego",
+      "state": "CA",
+      "rpp_all_items": 111.887,
+      "median_rent": 2223.0,
+      "median_home_value": 848500.0,
+      "median_income": 104321.0,
+      "population": 1385061
+    },
+    {
+      "city": "San Francisco",
+      "state": "CA",
+      "rpp_all_items": 115.613,
+      "median_rent": 2419.0,
+      "median_home_value": 1380500.0,
+      "median_income": 141446.0,
+      "population": 836321
+    },
+    {
+      "city": "San Jose",
+      "state": "CA",
+      "rpp_all_items": 110.423,
+      "median_rent": 2617.0,
+      "median_home_value": 1187800.0,
+      "median_income": 141565.0,
+      "population": 990054
+    },
+    {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "rpp_all_items": 100.707,
+      "median_rent": 1562.0,
+      "median_home_value": 420700.0,
+      "median_income": 83198.0,
+      "population": 483099
+    },
+    {
+      "city": "Denver",
+      "state": "CO",
+      "rpp_all_items": 105.782,
+      "median_rent": 1770.0,
+      "median_home_value": 586700.0,
+      "median_income": 91681.0,
+      "population": 713734
+    },
+    {
+      "city": "Washington",
+      "state": "DC",
+      "rpp_all_items": 108.884,
+      "median_rent": 1900.0,
+      "median_home_value": 724600.0,
+      "median_income": 106287.0,
+      "population": 672079
+    },
+    {
+      "city": "Jacksonville",
+      "state": "FL",
+      "rpp_all_items": 99.484,
+      "median_rent": 1375.0,
+      "median_home_value": 266100.0,
+      "median_income": 66981.0,
+      "population": 961739
+    },
+    {
+      "city": "Miami",
+      "state": "FL",
+      "rpp_all_items": 114.155,
+      "median_rent": 1657.0,
+      "median_home_value": 475200.0,
+      "median_income": 59390.0,
+      "population": 446663
+    },
+    {
+      "city": "Atlanta",
+      "state": "GA",
+      "rpp_all_items": 100.058,
+      "median_rent": 1617.0,
+      "median_home_value": 420600.0,
+      "median_income": 81938.0,
+      "population": 499287
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "rpp_all_items": 103.595,
+      "median_rent": 1380.0,
+      "median_home_value": 315200.0,
+      "median_income": 75134.0,
+      "population": 2707648
+    },
+    {
+      "city": "Indianapolis",
+      "state": "IN",
+      "rpp_all_items": 95.696,
+      "median_rent": 1112.0,
+      "median_home_value": 207000.0,
+      "median_income": 62995.0,
+      "population": 882043
+    },
+    {
+      "city": "Wichita",
+      "state": "KS",
+      "rpp_all_items": 88.946,
+      "median_rent": 960.0,
+      "median_home_value": 179500.0,
+      "median_income": 63072.0,
+      "population": 396488
+    },
+    {
+      "city": "Louisville",
+      "state": "KY",
+      "rpp_all_items": 93.074,
+      "median_rent": 1069.0,
+      "median_home_value": 221500.0,
+      "median_income": 64731.0,
+      "population": 627210
+    },
+    {
+      "city": "New Orleans",
+      "state": "LA",
+      "rpp_all_items": 92.597,
+      "median_rent": 1211.0,
+      "median_home_value": 296400.0,
+      "median_income": 55339.0,
+      "population": 376035
+    },
+    {
+      "city": "Boston",
+      "state": "MA",
+      "rpp_all_items": 108.266,
+      "median_rent": 2093.0,
+      "median_home_value": 710400.0,
+      "median_income": 94755.0,
+      "population": 663972
+    },
+    {
+      "city": "Baltimore",
+      "state": "MD",
+      "rpp_all_items": 104.487,
+      "median_rent": 1290.0,
+      "median_home_value": 219300.0,
+      "median_income": 59623.0,
+      "population": 577193
+    },
+    {
+      "city": "Detroit",
+      "state": "MI",
+      "rpp_all_items": 100.298,
+      "median_rent": 1034.0,
+      "median_home_value": 76800.0,
+      "median_income": 39575.0,
+      "population": 636644
+    },
+    {
+      "city": "Minneapolis",
+      "state": "MN",
+      "rpp_all_items": 104.822,
+      "median_rent": 1329.0,
+      "median_home_value": 345600.0,
+      "median_income": 80269.0,
+      "population": 426845
+    },
+    {
+      "city": "Kansas City",
+      "state": "MO",
+      "rpp_all_items": 92.543,
+      "median_rent": 1186.0,
+      "median_home_value": 227000.0,
+      "median_income": 67449.0,
+      "population": 508233
+    },
+    {
+      "city": "Charlotte",
+      "state": "NC",
+      "rpp_all_items": 97.348,
+      "median_rent": 1504.0,
+      "median_home_value": 351500.0,
+      "median_income": 78438.0,
+      "population": 886283
+    },
+    {
+      "city": "Raleigh",
+      "state": "NC",
+      "rpp_all_items": 98.157,
+      "median_rent": 1468.0,
+      "median_home_value": 377800.0,
+      "median_income": 82424.0,
+      "population": 470763
+    },
+    {
+      "city": "Omaha",
+      "state": "NE",
+      "rpp_all_items": 91.911,
+      "median_rent": 1150.0,
+      "median_home_value": 230100.0,
+      "median_income": 72708.0,
+      "population": 488197
+    },
+    {
+      "city": "Albuquerque",
+      "state": "NM",
+      "rpp_all_items": 95.546,
+      "median_rent": 1085.0,
+      "median_home_value": 266700.0,
+      "median_income": 65604.0,
+      "population": 562488
+    },
+    {
+      "city": "Las Vegas",
+      "state": "NV",
+      "rpp_all_items": 100.215,
+      "median_rent": 1456.0,
+      "median_home_value": 395300.0,
+      "median_income": 70723.0,
+      "population": 650873
+    },
+    {
+      "city": "New York",
+      "state": "NY",
+      "rpp_all_items": 112.563,
+      "median_rent": 1779.0,
+      "median_home_value": 751700.0,
+      "median_income": 79713.0,
+      "population": 8516202
+    },
+    {
+      "city": "Cleveland",
+      "state": "OH",
+      "rpp_all_items": 93.045,
+      "median_rent": null,
+      "median_home_value": null,
+      "median_income": null,
+      "population": null
+    },
+    {
+      "city": "Columbus",
+      "state": "OH",
+      "rpp_all_items": 95.469,
+      "median_rent": 1224.0,
+      "median_home_value": 234500.0,
+      "median_income": 65327.0,
+      "population": 906480
+    },
+    {
+      "city": "Oklahoma City",
+      "state": "OK",
+      "rpp_all_items": 90.408,
+      "median_rent": 1083.0,
+      "median_home_value": 215100.0,
+      "median_income": 66702.0,
+      "population": 688693
+    },
+    {
+      "city": "Tulsa",
+      "state": "OK",
+      "rpp_all_items": 89.214,
+      "median_rent": 998.0,
+      "median_home_value": 189600.0,
+      "median_income": 58407.0,
+      "population": 412322
+    },
+    {
+      "city": "Portland",
+      "state": "OR",
+      "rpp_all_items": 105.421,
+      "median_rent": 1596.0,
+      "median_home_value": 557600.0,
+      "median_income": 88792.0,
+      "population": 642715
+    },
+    {
+      "city": "Philadelphia",
+      "state": "PA",
+      "rpp_all_items": 102.554,
+      "median_rent": 1323.0,
+      "median_home_value": 232400.0,
+      "median_income": 60698.0,
+      "population": 1582432
+    },
+    {
+      "city": "Memphis",
+      "state": "TN",
+      "rpp_all_items": 92.179,
+      "median_rent": 1123.0,
+      "median_home_value": 157100.0,
+      "median_income": 51211.0,
+      "population": 629063
+    },
+    {
+      "city": "Nashville",
+      "state": "TN",
+      "rpp_all_items": 96.338,
+      "median_rent": 1486.0,
+      "median_home_value": 383100.0,
+      "median_income": 75197.0,
+      "population": 684298
+    },
+    {
+      "city": "Arlington",
+      "state": "TX",
+      "rpp_all_items": 103.09,
+      "median_rent": null,
+      "median_home_value": null,
+      "median_income": null,
+      "population": null
+    },
+    {
+      "city": "Austin",
+      "state": "TX",
+      "rpp_all_items": 98.066,
+      "median_rent": 1655.0,
+      "median_home_value": 512700.0,
+      "median_income": 91461.0,
+      "population": 967862
+    },
+    {
+      "city": "Dallas",
+      "state": "TX",
+      "rpp_all_items": 103.09,
+      "median_rent": 1403.0,
+      "median_home_value": 295300.0,
+      "median_income": 67760.0,
+      "population": 1299553
+    },
+    {
+      "city": "El Paso",
+      "state": "TX",
+      "rpp_all_items": 89.912,
+      "median_rent": 1041.0,
+      "median_home_value": 171700.0,
+      "median_income": 58734.0,
+      "population": 678147
+    },
+    {
+      "city": "Fort Worth",
+      "state": "TX",
+      "rpp_all_items": 103.09,
+      "median_rent": 1412.0,
+      "median_home_value": 277300.0,
+      "median_income": 76602.0,
+      "population": 941311
+    },
+    {
+      "city": "Houston",
+      "state": "TX",
+      "rpp_all_items": 98.629,
+      "median_rent": 1313.0,
+      "median_home_value": 253400.0,
+      "median_income": 62894.0,
+      "population": 2300419
+    },
+    {
+      "city": "San Antonio",
+      "state": "TX",
+      "rpp_all_items": 94.716,
+      "median_rent": 1258.0,
+      "median_home_value": 219700.0,
+      "median_income": 62917.0,
+      "population": 1458954
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "rpp_all_items": 111.133,
+      "median_rent": 1998.0,
+      "median_home_value": 912100.0,
+      "median_income": 121984.0,
+      "population": 741440
+    },
+    {
+      "city": "Milwaukee",
+      "state": "WI",
+      "rpp_all_items": 96.937,
+      "median_rent": 1033.0,
+      "median_home_value": 172000.0,
+      "median_income": 51888.0,
+      "population": 569756
+    }
+  ]
+}
