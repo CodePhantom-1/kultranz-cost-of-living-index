@@ -1,0 +1,30 @@
+# Swap the project author for your personal name before formal citation use:
+#   authors:
+#     - family-names: YourLastName
+#       given-names: YourFirstName
+cff-version: 1.2.0
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+title: 'US Metro Cost of Living Index (BEA RPP) with Median Rent, Home Value, Income & Population for 50 Metros'
+authors:
+  - name: 'Kultranz (kultranz.com)'
+type: dataset
+repository-code: 'https://github.com/CodePhantom-1/kultranz-cost-of-living-index'
+url: 'https://kultranz.com'
+abstract: >-
+  BEA Regional Price Parities (all items, US=100) for 50 major US metros,
+  combined with median rent, median home value, median income and population
+  from the US Census ACS. 2025-26 vintage; no imputed or interpolated values.
+keywords:
+  - cost-of-living
+  - bea
+  - regional-price-parities
+  - median-rent
+  - home-value
+  - metros
+  - dataset
+  - open-data
+license: CC-BY-4.0
+version: 1.0.0
+date-released: '2026-10-06'

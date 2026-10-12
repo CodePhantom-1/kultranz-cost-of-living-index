@@ -1,0 +1,7 @@
+{
+  "title": "US Metro Cost of Living Index (BEA RPP) with Median Rent, Home Value, Income and Population for 50 Metros",
+  "description": "BEA Regional Price Parities (all items, US=100) for 50 major US metros plus median rent, home value, income and population (Census ACS). 2025-26 vintage. CSV + JSON, CC BY 4.0. Maintained by kultranz.com.",
+  "creators": [{ "name": "[OWNER-NAME]" }],
+  "license": "CC-BY-4.0",
+  "keywords": ["cost of living", "regional price parities", "BEA", "metros", "median rent", "dataset"]
+}
